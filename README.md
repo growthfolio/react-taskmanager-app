@@ -1,51 +1,62 @@
-# React + TypeScript + Vite
+<!-- [![Quality Gate Status](http://localhost:9000/api/project_badges/measure?project=blog-front&metric=alert_status&token=sqb_e3951bb7fc8e5a095901a20a9761bad035427702)](http://localhost:9000/dashboard?id=blog-front)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+# Personal Blog - React/Tailwind
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+<div align="center">
+    <img src="https://i.imgur.com/mfIYuN2.png" title="source: imgur.com" />
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Project Description
 
-- Configure the top-level `parserOptions` property like this:
+The **Personal Blog** frontend is a user-friendly, responsive web interface built with React and Tailwind CSS. It complements the backend by providing an intuitive platform where users can easily interact with the blogging features, such as creating, editing, and viewing posts. The frontend is designed to consume the RESTful API provided by the backend, ensuring seamless communication and a smooth user experience.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project was developed during the Generation Brasil bootcamp, offering hands-on experience in building modern web interfaces with a strong focus on frontend technologies.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 💻 Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Framework:** React
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks (useState, useEffect)
+- **Routing:** React Router
+- **API Communication:** Axios for HTTP requests to the backend API.
+- **Deployment:** Vercel for hosting the frontend application.
+- **Main Dependencies:** React, Tailwind CSS, Axios, React Router, Vite (or Webpack).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# react-taskmanager-app
+## 📋 Setup Instructions
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/FelipeAJdev/personal-blog-frontend.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd personal-blog-frontend
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+   The application will be available at `http://localhost:3000`.
+
+## 🌐 Live Demo
+
+#### !!! The live version of this project is currently offline.
+Check out the live version of the project [here](https://blog-pessoal-react-chi-ten.vercel.app/).
+
+## 🙏 Acknowledgment
+
+This project was developed during the Generation Brasil bootcamp. A big thank you to all the colleagues and instructors who contributed to this journey. Your support and shared knowledge were crucial to the success of this project. -->

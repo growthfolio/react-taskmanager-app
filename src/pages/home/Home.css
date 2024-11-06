@@ -1,0 +1,34 @@
+.titulo{
+    color: blue;
+    text-align: center;
+}
+
+.imagem_fundo{
+    background-image: url('../../assets/img/Blue_Technology_Banner.png');
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 0 0 07px 07px;
+    box-shadow: inset;
+    background-position-y: 5%;
+    
+}
+
+.b-size{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Adicione esta regra no seu arquivo Home.css */
+@media (max-width: 768px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
